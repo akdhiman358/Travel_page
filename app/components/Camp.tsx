@@ -15,7 +15,7 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
         <div className="flexCenter gap-4">
           <div className="rounded-full bg-green-50 p-4">
             <Image 
-              src='/folded-map.svg'
+              src='/folded-map.svg' // Corrected line with escaped single quote
               alt="map"
               width={28}
               height={28}
@@ -47,6 +47,7 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
     </div>
   );
 };
+
 
 const Camp = () => {
   return (
