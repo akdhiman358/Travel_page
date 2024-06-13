@@ -20,6 +20,7 @@ const GetApp = () => {
               variant='btn_white'
               full
             />
+
             <Button 
               type='button'
               title='Play Store'
